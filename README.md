@@ -12,14 +12,14 @@ This PowerShell script is a simple number guessing game. The script generates a 
 
 2. **Run the Script**: Copy and paste the provided PowerShell code into your PowerShell terminal or script editor.
 
-3. **Start Guessing**: After running the script, you will see the message "Guess a number between 1 and 100:" in cyan color. The game will then prompt you to enter your first guess.
+3. **Start Guessing**: After running the script, you will see the message "Guess a number between 1 and 100:". The game will then prompt you to enter your first guess.
 
 4. **Make a Guess**: Enter a number between 1 and 100 and press Enter. The script will let you know if your guess is higher or lower than the random number.
 
 5. **Continue Guessing**: Keep guessing until you find the correct number. The script will give you feedback on each guess, indicating if the number is higher or lower than the random number.
 
 6. **Win Condition**: When you guess the correct number, the script will display a congratulatory message in green color along with the number of attempts it took you to find the correct number.
-
+</br>
 ## How the Script Works
 
 1. **Generate a Random Number**: The script starts by using the `Get-Random` cmdlet to generate a random number between 1 and 100. This random number is stored in the variable `$random`.
@@ -39,18 +39,3 @@ This PowerShell script is a simple number guessing game. The script generates a 
 6. **Repeat or Exit**: The loop continues until the user guesses the correct number, at which point the loop condition becomes false, and the script exits the loop.
 
 7. **Winning Message**: After the loop, the script displays a congratulatory message in green color, indicating the random number and the number of attempts it took to find the correct number.
-
-## Contributions
-
-If you would like to contribute to this project, you can consider adding the following features or improvements:
-
-- Implement difficulty levels (e.g., easy, medium, hard) that adjust the range of the random number.
-- Add error handling to validate user input (e.g., only accept numeric values within the valid range).
-- Implement a high-score system to keep track of the best scores.
-- Create a graphical user interface (GUI) for a more user-friendly experience.
-
-Feel free to fork this repository, make changes, and submit a pull request with your improvements.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code as long as you include the original license in your distribution.
